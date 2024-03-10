@@ -1,0 +1,57 @@
+.container{
+    min-height: 60vh;
+    display: grid;
+    font-size: 30px;  
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 120px 120px 120px 120px 120px 120px 100px 100px;
+    grid-template-areas: "a a b b b"
+    "c c c c c"
+    "c c c c c"
+    "c c c c c"
+    "c c c c c"
+    "d d d e f"
+    "d d d e g"
+    "h h h h h";
+    text-align: center;
+    grid-gap: 5px;
+}
+
+.i1{
+    background-color: red;
+  grid-area: a;
+}
+
+.i2{
+    background-color: yellow;
+ grid-area: b;
+}
+
+.i3{
+    background-color: wheat;
+ grid-area: c;
+}
+
+.i4{
+    background-color: powderblue;
+   grid-area: d;
+}
+
+.i5{
+    background-color: orange;
+    grid-area: e;
+}
+
+.i6{
+    background-color: violet;
+ grid-area: f;
+}
+
+.i7{
+    background-color: hotpink;
+ grid-area: g;
+}
+
+.i8{
+    background-color: blue;
+grid-area: h;
+}

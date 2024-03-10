@@ -1,0 +1,43 @@
+.item1 {
+    grid-area: a;
+  background-color: blue;
+}
+
+.item2 {
+    grid-area: b;
+  background-color: red;
+}
+
+.item3 {
+    grid-area: c;
+  background-color: yellow;
+}
+
+.item4 {
+    grid-area: d;
+  background-color: green;
+}
+
+.item5 {
+    grid-area: e;
+  background-color: pink;
+}
+
+.item6 {
+    grid-area: f;
+  background-color: cadetblue;
+}
+
+.container {
+    font-size: 6rem;
+  border: 5px solid black;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-areas: "a b d"
+  "e c c"
+  "f c c";
+  grid-gap: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
